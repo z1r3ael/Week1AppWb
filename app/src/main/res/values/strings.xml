@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Week1AppWb</string>
+    <string name="main_title">Основные компоненты Android</string>
+    <string name="activity">Activity</string>
+    <string name="service">Service</string>
+    <string name="broadcast_receiver">Broadcast Receiver</string>
+    <string name="content_provider">Content Provider</string>
+    <string name="activity_info">Activity/Деятельность (далее Активити) — представляет собой схему представления Android-приложений. Например, экран, который видит пользователь. Android-приложение может иметь несколько активити и может переключаться между ними во время выполнения приложения.</string>
+    <string name="service_info">Services/Службы — выполняет фоновые задачи без предоставления пользовательского интерфейса. Они могут уведомлять пользователя через систему уведомлений Android.</string>
+    <string name="broadcast_receiver_info">Broadcast Receiver/Широковещательный приемник (далее просто Приемник) — принимает системные сообщения и неявные интенты, может использоваться для реагирования на изменение состояния системы. Приложение может регистрироваться как приемник определенных событий и может быть запущено, если такое событие произойдет.</string>
+    <string name="content_provider_info">Content Provider/Контент-провайдеры — предоставляет данные приложениям, с помощью контент-провайдера Ваше приложение может обмениваться данными с другими приложениями. Android содержит базу данных SQLite, которая может быть контент-провайдером.</string>
+    <string name="this_is_activity">Activity - это экран, то что видит и с чем взаимодействует пользователь.</string>
+    <string name="service_example_info">Для примера сервиса используем воспроизведение музыки в фоновом режиме. Полсе запуска сервиса можно свободно переключаться между экранами приложения или же вовсе свернуть данное приложение. Музыка продолжит играть до тех пор, пока сервис не будет остановлен.</string>
+    <string name="receiver_example_info">Для примера наш \"приемник\" будет отображать информацию об изменении языка системы в виде тоста.</string>
+    <string name="start_service">Запустить сервис</string>
+    <string name="stop_service">Остановить сервис</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="provider_example_info">В данном примере Content Provider позволяет работать с базой данных, которая содержит имена людей. С его помощью можно добавлять и удалять людей из базы, а так же проводится валидация вводимых данных.</string>
+    <string name="name">Имя</string>
+    <string name="hint_name">Введите имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="hint_surname">Введите фамилию</string>
+</resources>
